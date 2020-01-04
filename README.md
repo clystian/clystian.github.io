@@ -1,8 +1,13 @@
-# clystian.github.io
-# clystian.me 
+# GitHub Page clystian.github.io 
 
-Page Preview 2020-01-04
+## links
+
+https://clystian.github.io or https://clystian.me 
+
+# Page Preview 2020-01-04
+
 ![Kiku](images/personalwebsite-screenshot.png)
 
-Screenshot from gitshowcases
+# Screenshot from gitshowcases
+
 ![Kiku](images/gitshowcases-screenshot.png)
