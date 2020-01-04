@@ -17,7 +17,7 @@
   "author": "Ryan Fitzgerald",
   "license": "MIT",
   "devDependencies": {
-    "tar": ">=2.2.2",
+    "tar": ">=4.4.2",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^6.0.0",
     "gulp-plumber": "^1.2.0",
