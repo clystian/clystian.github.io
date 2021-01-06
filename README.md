@@ -2,7 +2,7 @@
 
 ## links
 
-https://clystian.github.io or https://clystian.me 
+https://clystian.github.io or https://clystian.ninja 
 
 # Page Preview 2020-01-04
 
