@@ -21,7 +21,7 @@
     "glob-parent": "^6.0.2",
     "glob-watcher": "^5.0.5",
     "gulp": "^4.0.2",
-    "gulp-autoprefixer": "^6.1.0",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-plumber": "^1.2.1",
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.0.0",
