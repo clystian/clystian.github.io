@@ -30,7 +30,7 @@
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
     "minimatch": "^7.0.0",
-    "minimist": "^1.2.7",
+    "minimist": "^1.2.8",
     "set-value": ">=4.1.0",
     "tar": "^6.1.13",
     "yargs-parser": "^21.1.1"
