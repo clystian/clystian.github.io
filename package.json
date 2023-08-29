@@ -17,7 +17,7 @@
   "author": "Cristian Hernandez",
   "license": "MIT",
   "devDependencies": {
-    "glob-watcher": "^5.0.5",
+    "glob-watcher": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-plumber": "^1.2.1",
