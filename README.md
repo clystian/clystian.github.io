@@ -1,5 +1,9 @@
 # GitHub Page clystian.github.io 
 
+### Top Languages - GitHub
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=DevCaress&layout=compact&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
+
 ## links
 
 https://clystian.github.io or https://clystian.ninja 
