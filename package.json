@@ -29,7 +29,7 @@
     "gulp-wait": "^0.0.2",
     "kind-of": "^6.0.3",
     "lodash": "^4.17.21",
-    "minimatch": "^7.0.0",
+    "minimatch": "^9.0.1",
     "minimist": "^1.2.8",
     "set-value": ">=4.1.0",
     "tar": "^6.1.13",
