@@ -30,7 +30,7 @@
     "minimatch": "^9.0.4",
     "minimist": "^1.2.8",
     "set-value": ">=4.1.0",
-    "tar": "^7.1.0",
+    "tar": "^7.4.2",
     "yargs-parser": "^21.1.1"
   },
   "overrides": {
