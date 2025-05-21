@@ -11,11 +11,11 @@ https://clystian.github.io or https://clystian.ninja
 
 # Page Preview 2020-01-04
 
-![Kiku](images/personalwebsite-screenshot.png)
+![Kiku](public/images/personalwebsite-screenshot.png)
 
 # Screenshot from gitshowcases
 
-![Kiku](images/gitshowcases-screenshot.png)
+![Kiku](public/images/gitshowcases-screenshot.png)
 
 This is a modern portfolio site built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/), deployed via GitHub Pages.
 
