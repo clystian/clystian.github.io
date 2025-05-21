@@ -1,41 +1,20 @@
 {
-  "name": "devportfolio-template",
-  "version": "1.1.5",
-  "description": "",
-  "main": "js/scripts.js",
+  "name": "clystian.github.io",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "watch": "gulp watch"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
-  "keywords": [
-    "portfolio",
-    "personal",
-    "website",
-    "tech",
-    "coding",
-    "dev"
-  ],
-  "author": "Cristian Hernandez",
-  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/vite": "^4.1.7",
+    "astro": "^5.7.14"
+  },
   "devDependencies": {
-    "glob-watcher": "^6.0.0",
-    "gulp": "^5.0.0",
-    "gulp-autoprefixer": "^8.0.0",
-    "gulp-plumber": "^1.2.1",
-    "gulp-rename": "^2.0.0",
-    "gulp-sass": "^6.0.0",
-    "gulp-uglify": "^3.0.2",
-    "gulp-wait": "^0.0.2",
-    "kind-of": "^6.0.3",
-    "lodash": "^4.17.21",
-    "minimatch": "^10.0.1",
-    "minimist": "^1.2.8",
-    "set-value": ">=4.1.0",
-    "tar": "^7.4.3",
-    "yargs-parser": "^21.1.1"
-  },
-  "overrides": {
-    "chokidar": "3.5.3",
-    "global-parent": "6.0.2",
-    "glob-stream":"8.0.0"
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.7"
   }
 }
