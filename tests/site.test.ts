@@ -6,7 +6,10 @@ let server;
 
 beforeAll(async () => {
   execSync('npm run build', { stdio: 'inherit' });
-  server = spawn('npm', ['run', 'preview', '--', '--port', '4321'], {
+  // Avoid searching PATH for npm; use the current npm CLI when available
+  const npmPath = process.env.npm_execpath;
+  const cmd = npmPath ? [process.execPath, npmPath] : ['npm'];
+  server = spawn(cmd[0], [...cmd.slice(1), 'run', 'preview', '--', '--port', '4321'], {
     stdio: 'inherit',
   });
   // give the server some time to start

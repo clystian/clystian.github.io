@@ -5,6 +5,10 @@ dist/
 
 # dependencies
 node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+.yarn/
+yarn.lock
 
 # logs
 npm-debug.log*
