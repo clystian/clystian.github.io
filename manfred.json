@@ -1,0 +1,394 @@
+{
+  "$schema": "https://raw.githubusercontent.com/getmanfred/mac/v0.5/schema/schema.json",
+  "settings": {
+    "language": "EN",
+    "MACVersion": "0.5"
+  },
+  "aboutMe": {
+    "profile": {
+      "name": "Cristian Felipe ",
+      "surnames": "Hernandez",
+      "title": "Senior Fullstack Developer | .NET | Node.js | React | Angular | SQL | 10+years",
+      "description": "12 years of professional experience as a Fullstack Developer in Javascript and .NET environments. I have worked in the development, design, planning and monitoring of different projects. I have experience in the development of web services and web applications, multi-system integrations, connectivity and mobile application development.\nTech leader of small development teams, participated in infrastructure decision making and design of the technology stack for projects.",
+      "avatar": {
+        "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/526277aa-93f3-44d0-a03b-70e2fd11429f_linkedin-photo-8648.linkedin-photo-8648",
+        "alt": "24/06/24/526277aa-93f3-44d0-a03b-70e2fd11429f_linkedin-photo-8648.linkedin-photo-8648"
+      },
+      "location": {
+        "notes": "Autocompleted using Google Maps API (id: ChIJBa0PuN8oRI4RVju1x_x8E0I)",
+        "country": "Colombia",
+        "region": "Antioquia",
+        "municipality": "Medellín"
+      }
+    },
+    "relevantLinks": [
+      {
+        "type": "linkedin",
+        "URL": "https://linkedin.com/in/clystian"
+      },
+      {
+        "type": "github",
+        "URL": "https://www.github.com/clystian"
+      },
+      {
+        "type": "twitter",
+        "URL": "https://www.twitter.com/clystian_"
+      },
+      {
+        "type": "stackoverflow",
+        "URL": "https://stackoverflow.com/users/1669574/clystian"
+      }
+    ]
+  },
+  "experience": {
+    "jobs": [
+      {
+        "organization": {
+          "name": "Sombra Inc / Wine Shipping",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/30/362692ef-67e4-44bc-9b10-2139ce4efb68_sombra_inc_logo.jpg",
+            "alt": "sombra_inc_logo.jpg"
+          },
+          "URL": "https://sombrainc.com/"
+        },
+        "roles": [
+          {
+            "name": "Senior Full Staack Developer",
+            "startDate": "2024-10-01",
+            "challenges": [
+              {
+                "description": "Technologies: React, Typescript, Redux, SASS,, Databrick, .NET, Azure, CosmosDB, SQLServer, Nodejs, Python"
+              }
+            ],
+            "competences": [
+              { "name": ".NET", "type": "technology" },
+              { "name": ".Net Core", "type": "technology" },
+              { "name": "Azure", "type": "technology" },
+              { "name": "Azure CosmosDB", "type": "technology" },
+              { "name": "Azure DevOps", "type": "technology" },
+              { "name": "Azure Functions", "type": "technology" },
+              { "name": "Databricks", "type": "technology" },
+              { "name": "GraphQL", "type": "technology" },
+              { "name": "REST", "type": "technology" },
+              { "name": "React", "type": "technology" },
+              { "name": "Redux", "type": "technology" },
+              { "name": "SQL", "type": "technology" },
+              { "name": "SQLServer", "type": "technology" },
+              { "name": "Sass", "type": "technology" },
+              { "name": "TypeScript", "type": "technology" }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Integris Group / QTC",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/07/29/9b0516f1-fd0b-451d-90ae-350ec19a517c_integrislogo1.png",
+            "alt": "integris+logo[1].png"
+          }
+        },
+        "roles": [
+          {
+            "name": "Senior Fullstack Developer",
+            "startDate": "2023-11-01",
+            "finishDate": "2024-11-01",
+            "competences": [
+              { "name": ".NET", "type": "technology" },
+              { "name": ".Net Core", "type": "technology" },
+              { "name": "Azure Functions", "type": "technology" },
+              { "name": "Docker", "type": "technology" },
+              { "name": "Groovy", "type": "technology" },
+              { "name": "IIS", "type": "technology" },
+              { "name": "Jenkins", "type": "technology" },
+              { "name": "Linux", "type": "technology" },
+              { "name": "Microsoft Active Directory", "type": "technology" },
+              { "name": "Microsoft SQL Integration Services (SSIS)", "type": "technology" },
+              { "name": "NodeJS", "type": "technology" },
+              { "name": "Oracle", "type": "technology" },
+              { "name": "Oracle Reports", "type": "technology" },
+              { "name": "PowerShell", "type": "technology" },
+              { "name": "Python", "type": "technology" },
+              { "name": "REST", "type": "technology" },
+              { "name": "SQLServer", "type": "technology" },
+              { "name": "Serverless", "type": "technology" },
+              { "name": "jQuery", "type": "technology" }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "ValidiFI",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/56889b9d-f0e9-4d7e-be7b-c9db68df07de_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/56889b9d-f0e9-4d7e-be7b-c9db68df07de_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Full Stack Engineer",
+            "startDate": "2022-09-01",
+            "finishDate": "2023-11-01",
+            "challenges": [
+              {
+                "description": "• new features, integrations, and migrate AWS to Azure\n• upgrade .NET technologies, containerization, WebForm to React\n\nSkills: Full-Stack Development · Computer Science · HTML · Amazon SQS · TypeScript · JavaScript · Back-End Web Development · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Amazon S3 · Object-Relational Mapping (ORM) · Problem Solving · Web Technologies · Amazon Web Services (AWS) · Node.js · Git · Web Applications"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "PRESTTI",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/39e7fd80-215b-4b51-81d7-e487050c846b_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/39e7fd80-215b-4b51-81d7-e487050c846b_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Senior Fullstack Developer",
+            "startDate": "2021-08-01",
+            "finishDate": "2022-08-01",
+            "challenges": [
+              {
+                "description": "• building new features, integrations, and improvements\n• Implementation of programming best practices, unit testing, CI/DI\n• Updating technologies for running on linux and containers, performance monitoring of AWS infrastructure\n\nSkills: Relational Databases · Computer Science · English · PostgreSQL · Front-End Development · .NET Framework · HTML · Amazon SQS · SQL · Sequelize.js · TypeScript · JavaScript · Back-End Web Development · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Amazon S3 · Object-Relational Mapping (ORM) · Problem Solving · Amazon Web Services (AWS) · .NET Core · Git · Web Applications · Scrum · React.js"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Inmel Ingeniería",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/08f90ca4-bcac-4f65-bb2f-52a9852075ea_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/08f90ca4-bcac-4f65-bb2f-52a9852075ea_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Coordinador de Soluciones de Software",
+            "startDate": "2018-05-01",
+            "finishDate": "2021-08-31",
+            "challenges": [
+              {
+                "description": "• Participated in backend and middleware development for multiple systems.\n• Development of electron desktop application for admin services and accounts\n• Tasks management and guiding middle/junior developers\n\nSkills: Relational Databases · Computer Science · English · PostgreSQL · Front-End Development · .NET Framework · HTML · SQL · TypeScript · JavaScript · Back-End Web Development · Mobile Applications · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Object-Relational Mapping (ORM) · Problem Solving · Amazon Web Services (AWS) · .NET Core · Git · Web Applications · Scrum · React.js"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Inmel Ingeniería",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/6bbc5a4e-817d-4dde-9395-09bcf27a3227_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/6bbc5a4e-817d-4dde-9395-09bcf27a3227_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Analista Desarrollador",
+            "startDate": "2015-08-01",
+            "finishDate": "2018-05-31",
+            "challenges": [
+              {
+                "description": "Skills: Relational Databases · Computer Science · Front-End Development · .NET Framework · HTML · SQL · TypeScript · JavaScript · Back-End Web Development · Mobile Applications · Cascading Style Sheets (CSS) · Object-Relational Mapping (ORM) · Problem Solving · .NET Core · Git · Web Applications · Scrum · React.js · Python (Programming Language)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "SQA",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/95a88e8c-4372-435a-86d3-d4a93fbc9f46_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/95a88e8c-4372-435a-86d3-d4a93fbc9f46_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Analista de Pruebas",
+            "startDate": "2014-06-01",
+            "finishDate": "2015-09-30",
+            "challenges": [
+              {
+                "description": "Skills: Relational Databases · Computer Science · .NET Framework · HTML · SQL · Sequelize.js · TypeScript · JavaScript · Back-End Web Development · PHP · Cascading Style Sheets (CSS) · Object-Relational Mapping (ORM) · Problem Solving · Git · Web Applications · Scrum · Python (Programming Language)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Choucair Testing S.A.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/c766f0dd-c181-402f-b374-19abff0f203a_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/c766f0dd-c181-402f-b374-19abff0f203a_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Analista de Pruebas",
+            "startDate": "2013-08-01",
+            "finishDate": "2014-04-30",
+            "challenges": [
+              {
+                "description": "Skills: Relational Databases · Computer Science · HTML · SQL · Back-End Web Development · Problem Solving · Web Applications · Scrum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "GRUPO EN LÍNEA SOFTWARE S.A.S.",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/5ac44d3d-ee5e-4dd8-a03b-31f1817edeac_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/5ac44d3d-ee5e-4dd8-a03b-31f1817edeac_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Analista Desarrollador",
+            "startDate": "2012-07-01",
+            "finishDate": "2013-07-31",
+            "challenges": [
+              {
+                "description": "Skills: Relational Databases · Computer Science · PostgreSQL · Front-End Development · .NET Framework · HTML · SQL · Java · JavaScript · Back-End Web Development · Mobile Applications · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Object-Relational Mapping (ORM) · Problem Solving · Git · Web Applications · Scrum"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "organization": {
+          "name": "Universidad Autónoma Latinoamericana",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/a61bb8e0-8273-421d-bb4b-9d104055c1ce_linkedin-photo-8648.linkedin-photo-8648",
+            "alt": "24/06/24/a61bb8e0-8273-421d-bb4b-9d104055c1ce_linkedin-photo-8648.linkedin-photo-8648"
+          }
+        },
+        "roles": [
+          {
+            "name": "Auxiliar de Sistemas",
+            "startDate": "2009-07-01",
+            "finishDate": "2010-07-31",
+            "challenges": [
+              {
+                "description": "Skills: Relational Databases · Computer Science · Front-End Development · .NET Framework · HTML · SQL · Java · Sequelize.js · JavaScript · Back-End Web Development · PHP · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Object-Relational Mapping (ORM) · Problem Solving · Git · Web Applications · Python (Programming Language)"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "knowledge": {
+    "languages": [
+      {
+        "name": "EN",
+        "fullName": "Inglés",
+        "level": "Professional working proficiency"
+      },
+      {
+        "name": "ES",
+        "fullName": "Español",
+        "level": "Native or bilingual proficiency"
+      }
+    ],
+    "hardSkills": [
+      { "skill": { "name": ".NET", "type": "technology" } },
+      { "skill": { "name": ".Net Core", "type": "technology" } },
+      { "skill": { "name": "AWS", "type": "technology" } },
+      { "skill": { "name": "Amazon SQS", "type": "technology" } },
+      { "skill": { "name": "AngularJS", "type": "technology" } },
+      { "skill": { "name": "CSS", "type": "technology" } },
+      { "skill": { "name": "Git", "type": "technology" } },
+      { "skill": { "name": "HTML", "type": "technology" } },
+      { "skill": { "name": "Java", "type": "technology" } },
+      { "skill": { "name": "JavaScript", "type": "technology" } },
+      { "skill": { "name": "Microsoft Excel", "type": "technology" } },
+      { "skill": { "name": "PHP", "type": "technology" } },
+      { "skill": { "name": "PostgreSQL", "type": "technology" } },
+      { "skill": { "name": "Python", "type": "technology" } },
+      { "skill": { "name": "React", "type": "technology" } },
+      { "skill": { "name": "S3", "type": "technology" } },
+      { "skill": { "name": "SQL", "type": "technology" } },
+      { "skill": { "name": "Sequelize", "type": "technology" } },
+      { "skill": { "name": "TypeScript", "type": "technology" } }
+    ],
+    "studies": [
+      {
+        "studyType": "officialDegree",
+        "degreeAchieved": true,
+        "name": "Ingeniero informático, Ingeniería informática",
+        "startDate": "2009-01-01",
+        "institution": {
+          "name": "Universidad Autónoma Latinoamericana",
+          "URL": "https://www.unaula.edu.co/",
+          "image": {
+            "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/08/07/fe7a2eaf-abd8-40c1-9e84-61655d286711_untitled-1_691.png",
+            "alt": "untitled-1_69[1].png"
+          }
+        },
+        "finishDate": "2013-12-01",
+        "linkedCompetences": [
+          { "name": ".NET", "type": "technology" },
+          { "name": "ASP.net", "type": "technology" },
+          { "name": "C#", "type": "technology" },
+          { "name": "CSS", "type": "technology" },
+          { "name": "JavaScript", "type": "technology" },
+          { "name": "MySQL", "type": "technology" },
+          { "name": "PHP", "type": "technology" },
+          { "name": "PostgreSQL", "type": "technology" },
+          { "name": "SQLServer", "type": "technology" }
+        ]
+      }
+    ]
+  },
+  "careerPreferences": {
+    "contact": {
+      "publicProfiles": [
+        { "URL": "https://linkedin.com/in/clystian", "type": "linkedin" },
+        { "URL": "https://stackoverflow.com/users/1669574/clystian", "type": "stackoverflow" },
+        { "URL": "https://www.github.com/clystian", "type": "github" },
+        { "URL": "https://www.twitter.com/clystian_", "type": "twitter" }
+      ]
+    },
+    "preferences": {
+      "preferredCompetences": [
+        { "name": ".NET", "type": "technology" },
+        { "name": "Angular2+", "type": "technology" },
+        { "name": "NodeJS", "type": "technology" },
+        { "name": "React", "type": "technology" }
+      ],
+      "discardedCompetences": [
+        { "name": "Java", "type": "technology" },
+        { "name": "PHP", "type": "technology" }
+      ],
+      "preferredRoles": [
+        "Full-stack Developer",
+        "Tech Lead"
+      ]
+    },
+    "status": "searchingActively",
+    "requirements": {
+      "contractTypes": [
+        "permanent",
+        "freelance"
+      ]
+    }
+  },
+  "manfredSpecificData": {
+    "mainStackTechs": [
+      { "name": ".NET", "type": "technology" },
+      { "name": "JavaScript", "type": "technology" },
+      { "name": "TypeScript", "type": "technology" }
+    ],
+    "desiredJobDescription": "I would like a job with big technological challenges. I also think it's important for personal growth to work with people who are benchmarks in their field and to have good mentoring"
+  }
+}

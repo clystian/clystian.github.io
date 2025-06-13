@@ -19,6 +19,11 @@ https://clystian.github.io or https://clystian.ninja
 
 This is a modern portfolio site built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/), deployed via GitHub Pages.
 
+## Manfred Profile
+
+The site content is sourced from `manfred.json`, which follows the [Manfred MAC schema](https://github.com/getmanfred/mac). Update this file to change your personal data and experiences. After editing, rebuild the site.
+
+
 ## Development
 
 ```bash

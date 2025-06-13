@@ -1,29 +1,14 @@
 ---
-// Skills section
+import data from '../../manfred.json';
+const skills = data.knowledge.hardSkills.map(h => h.skill.name);
 ---
 <section id="skills" class="py-16">
   <div class="container mx-auto">
     <h2 class="text-2xl font-bold mb-8">Skills</h2>
     <ul class="flex flex-wrap gap-4">
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">.NET</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">.Net Core</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">AWS</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Amazon SQS</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">AngularJS</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">CSS</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Git</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">HTML</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Java</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">JavaScript</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Microsoft Excel</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">PHP</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">PostgreSQL</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Python</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">React</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">S3</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">SQL</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">Sequelize</li>
-      <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">TypeScript</li>
+      {skills.map(skill => (
+        <li class="bg-blue-100 text-blue-800 px-4 py-2 rounded-full">{skill}</li>
+      ))}
     </ul>
   </div>
 </section>
