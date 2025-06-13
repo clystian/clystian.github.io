@@ -26,6 +26,14 @@ npm install
 npm run dev
 ```
 
+## Testing
+
+Run the automated test suite to ensure the site builds and the homepage loads:
+
+```bash
+npm test
+```
+
 ## Build for Production
 
 ```bash
