@@ -33,8 +33,7 @@ npm run build
 ```
 
 ## Deploy to GitHub Pages
-
-- Ensure the `CNAME` file in `public/` is set to your custom domain (if using one).
+- Custom domains can use a `CNAME` file in `public/`; this file is optional and not included by default.
 - Push the `dist/` folder to the `gh-pages` branch or configure your repository for GitHub Pages deployment.
 
 ## License
