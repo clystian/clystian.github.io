@@ -1,54 +1,88 @@
-# GitHub Page clystian.github.io 
+# Portfolio Framework (Astro + Manfred)
 
-### Top Languages - GitHub
-![](https://vistr.dev/badge?repo=clystian.clystian.github.io)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Build & Deploy](https://github.com/clystian/clystian.github.io/actions/workflows/deploy.yml/badge.svg)](https://github.com/clystian/clystian.github.io/actions)
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=clystian&layout=compact&theme=midnight-purple)](https://github.com/anuraghazra/github-readme-stats)
 
-## links
+A high-performance, schema-driven portfolio generated from a single JSON source.
 
-https://clystian.github.io or https://clystian.ninja
+**Live at:** [clystian.ninja](https://clystian.ninja) | [clystian.github.io](https://clystian.github.io)
 
-# Page Preview 2020-01-04
+---
 
-![Kiku](public/images/personalwebsite-screenshot.png)
+## 🏗 Architecture & Tech Stack
 
-# Screenshot from gitshowcases
+- **Framework:** [Astro 4.x](https://astro.build/) (SSG)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Package Manager:** [pnpm](https://pnpm.io/)
+- **Data Schema:** [Manfred MAC](https://github.com/getmanfred/mac) (`src/data/manfred.json`)
 
-![Kiku](public/images/gitshowcases-screenshot.png)
+### Why Manfred?
+The site implements a **Data-First** approach. By using the Manfred MAC schema, the resume data is decoupled from the UI logic, allowing for easy updates and interoperability with other HR tools.
 
-This is a modern portfolio site built with [Astro](https://astro.build/) and [Tailwind CSS](https://tailwindcss.com/), deployed via GitHub Pages.
+---
 
-## Manfred Profile
+## 🚀 Getting Started
 
-The site content is sourced from `manfred.json`, which follows the [Manfred MAC schema](https://github.com/getmanfred/mac). Update this file to change your personal data and experiences. After editing, rebuild the site.
+### Prerequisites
+- Node.js (Latest LTS)
+- pnpm `corepack enable pnpm`
 
-
-## Development
-
+### Installation
 ```bash
-npm install
-npm run dev
+pnpm install
 ```
 
-## Testing
-
-Run the automated test suite to ensure the site builds and the homepage loads:
+### Local Development
 
 ```bash
-npm test
+pnpm dev
 ```
 
-## Build for Production
+### Build & Validation
 
 ```bash
-npm run build
+# Validates types and builds the static site to /dist
+pnpm run build
+
+# Execute Playwright/Vitest suite
+pnpm test
 ```
 
-## Deploy to GitHub Pages
-- Custom domains can use a `CNAME` file in `public/`; this file is optional and not included by default.
-- Push the `dist/` folder to the `gh-pages` branch or configure your repository for GitHub Pages deployment.
+---
 
-## License
+## 🛠 Content Management
 
-MIT
+To update the portfolio content, modify the source of truth:
+
+1. Edit `public/manfred.json` (or `src/data/manfred.json` depending on your setup).
+    
+2. The UI components reactively map the JSON nodes to Tailwind-styled components.
+    
+3. Commit changes to `main` to trigger the GitHub Actions deployment.
+    
+
+---
+
+## 📦 Deployment
+
+This repository uses **GitHub Actions** for automated deployment.
+
+- **Branch:** `main` triggers the build.
+    
+- **Environment:** GitHub Pages.
+    
+- **Custom Domain:** Configured via `CNAME` in the `public/` directory.
+    
+
+## 📄 License
+
+This project is licensed under the **MIT License**. You are free to use the code, but please replace the `manfred.json` data with your own information.
+
+```
+* **Custom .ninja Domain:** ~$20 USD/year (**$78,000 COP**).
+* **GitHub Pro (for larger LFS assets):** $4 USD/month (**$15,600 COP**).
+
+Would you like me to help you write a **GitHub Action** workflow specifically for building this Astro project with `pnpm`?
+```
