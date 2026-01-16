@@ -79,10 +79,3 @@ This repository uses **GitHub Actions** for automated deployment.
 ## 📄 License
 
 This project is licensed under the **MIT License**. You are free to use the code, but please replace the `manfred.json` data with your own information.
-
-```
-* **Custom .ninja Domain:** ~$20 USD/year (**$78,000 COP**).
-* **GitHub Pro (for larger LFS assets):** $4 USD/month (**$15,600 COP**).
-
-Would you like me to help you write a **GitHub Action** workflow specifically for building this Astro project with `pnpm`?
-```
