@@ -24,7 +24,7 @@ Configuration files:
 
 - `astro.config.mjs` – Sets the site URL and adds the Tailwind plugin.
 - `tsconfig.json` – Uses Astro's strict TypeScript configuration.
-- `.github/workflows/deploy-pages.yml` – GitHub Actions workflow that builds and deploys the site.
+- `.github/workflows/deploy.yml` – GitHub Actions workflow that builds and deploys the site.
 
 ## Development Workflow
 
