@@ -8,8 +8,8 @@
     "profile": {
       "name": "Cristian Felipe ",
       "surnames": "Hernandez",
-      "title": "Senior Fullstack Developer | .NET | Node.js | React | Angular | SQL | 10+years",
-      "description": "12 years of professional experience as a Fullstack Developer in Javascript and .NET environments. I have worked in the development, design, planning and monitoring of different projects. I have experience in the development of web services and web applications, multi-system integrations, connectivity and mobile application development.\nTech leader of small development teams, participated in infrastructure decision making and design of the technology stack for projects.",
+      "title": "Senior Fullstack Developer | .NET | Node.js | React | Angular | SQL | 14+ years",
+      "description": "14 years of professional experience as a Fullstack Developer in Javascript and .NET environments. I have worked in the development, design, planning and monitoring of different projects. I have experience in the development of web services and web applications, multi-system integrations, connectivity and mobile application development.\nTech leader of small development teams, participated in infrastructure decision making and design of the technology stack for projects.",
       "avatar": {
         "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/526277aa-93f3-44d0-a03b-70e2fd11429f_linkedin-photo-8648.linkedin-photo-8648",
         "alt": "24/06/24/526277aa-93f3-44d0-a03b-70e2fd11429f_linkedin-photo-8648.linkedin-photo-8648"
@@ -44,7 +44,7 @@
     "jobs": [
       {
         "organization": {
-          "name": "Sombra Inc / Wine Shipping",
+          "name": "Sombra Inc. / Wineshipping",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/12/30/362692ef-67e4-44bc-9b10-2139ce4efb68_sombra_inc_logo.jpg",
             "alt": "sombra_inc_logo.jpg"
@@ -53,29 +53,75 @@
         },
         "roles": [
           {
-            "name": "Senior Full Staack Developer",
+            "name": "Senior Fullstack Developer",
             "startDate": "2024-10-01",
+            "finishDate": "2025-11-01",
             "challenges": [
               {
-                "description": "Technologies: React, Typescript, Redux, SASS,, Databrick, .NET, Azure, CosmosDB, SQLServer, Nodejs, Python"
+                "description": "Architected event-driven microservices using .NET 8 and Azure Functions, migrating legacy data from CosmosDB to SQL Server\nModernized frontend by migrating from CRA to Vite and React 19, enabling real-time features with SignalR and TypeScript\nDeployed containerized apps on Kubernetes, integrated Stripe/Shopify, and moved CI/CD pipelines to GitHub Actions\nIntegrated OpenAI API to enhance user features and streamlined the development lifecycle with AI-driven code reviews\nTechnologies: net 8, c#, python, databricks, sql server, graphql, azure functions, event hubs, react 19, typescript, vite, mui, signalr, kubernetes, docker, github actions, openai api, React, Typescript, Redux, SASS, Databrick, .NET, Azure, CosmosDB, SQLServer, Nodejs, Python"
               }
             ],
             "competences": [
-              { "name": ".NET", "type": "technology" },
-              { "name": ".Net Core", "type": "technology" },
-              { "name": "Azure", "type": "technology" },
-              { "name": "Azure CosmosDB", "type": "technology" },
-              { "name": "Azure DevOps", "type": "technology" },
-              { "name": "Azure Functions", "type": "technology" },
-              { "name": "Databricks", "type": "technology" },
-              { "name": "GraphQL", "type": "technology" },
-              { "name": "REST", "type": "technology" },
-              { "name": "React", "type": "technology" },
-              { "name": "Redux", "type": "technology" },
-              { "name": "SQL", "type": "technology" },
-              { "name": "SQLServer", "type": "technology" },
-              { "name": "Sass", "type": "technology" },
-              { "name": "TypeScript", "type": "technology" }
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "Azure",
+                "type": "technology"
+              },
+              {
+                "name": "Azure CosmosDB",
+                "type": "technology"
+              },
+              {
+                "name": "Azure DevOps",
+                "type": "technology"
+              },
+              {
+                "name": "Azure Functions",
+                "type": "technology"
+              },
+              {
+                "name": "Databricks",
+                "type": "technology"
+              },
+              {
+                "name": "GraphQL",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "React",
+                "type": "technology"
+              },
+              {
+                "name": "Redux",
+                "type": "technology"
+              },
+              {
+                "name": "SQL",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "Sass",
+                "type": "technology"
+              },
+              {
+                "name": "TypeScript",
+                "type": "technology"
+              }
             ]
           }
         ]
@@ -93,33 +139,95 @@
             "name": "Senior Fullstack Developer",
             "startDate": "2023-11-01",
             "finishDate": "2024-11-01",
+            "challenges": [
+              {
+                "description": "Modernized a legacy monolithic application by migrating from .NET Framework to .NET 8 and Dockerizing services, reducing deployment time by 60%-80% via Azure DevOps pipelines\nDesigned scalable microservices using C# and OpenFaaS, handling high-volume data processing for the healthcare sector.\nTechnologies: react, redux, node.js, javascript, typescript, next.js, aws, azure, azure devops, docker, microservices, golang, c#, .net, asp.net core, entity framework, sql server"
+              }
+            ],
             "competences": [
-              { "name": ".NET", "type": "technology" },
-              { "name": ".Net Core", "type": "technology" },
-              { "name": "Azure Functions", "type": "technology" },
-              { "name": "Docker", "type": "technology" },
-              { "name": "Groovy", "type": "technology" },
-              { "name": "IIS", "type": "technology" },
-              { "name": "Jenkins", "type": "technology" },
-              { "name": "Linux", "type": "technology" },
-              { "name": "Microsoft Active Directory", "type": "technology" },
-              { "name": "Microsoft SQL Integration Services (SSIS)", "type": "technology" },
-              { "name": "NodeJS", "type": "technology" },
-              { "name": "Oracle", "type": "technology" },
-              { "name": "Oracle Reports", "type": "technology" },
-              { "name": "PowerShell", "type": "technology" },
-              { "name": "Python", "type": "technology" },
-              { "name": "REST", "type": "technology" },
-              { "name": "SQLServer", "type": "technology" },
-              { "name": "Serverless", "type": "technology" },
-              { "name": "jQuery", "type": "technology" }
+              {
+                "name": ".NET",
+                "type": "technology"
+              },
+              {
+                "name": ".Net Core",
+                "type": "technology"
+              },
+              {
+                "name": "Azure Functions",
+                "type": "technology"
+              },
+              {
+                "name": "Docker",
+                "type": "technology"
+              },
+              {
+                "name": "Groovy",
+                "type": "technology"
+              },
+              {
+                "name": "IIS",
+                "type": "technology"
+              },
+              {
+                "name": "Jenkins",
+                "type": "technology"
+              },
+              {
+                "name": "Linux",
+                "type": "technology"
+              },
+              {
+                "name": "Microsoft Active Directory",
+                "type": "technology"
+              },
+              {
+                "name": "Microsoft SQL Integration Services (SSIS)",
+                "type": "technology"
+              },
+              {
+                "name": "NodeJS",
+                "type": "technology"
+              },
+              {
+                "name": "Oracle",
+                "type": "technology"
+              },
+              {
+                "name": "Oracle Reports",
+                "type": "technology"
+              },
+              {
+                "name": "PowerShell",
+                "type": "technology"
+              },
+              {
+                "name": "Python",
+                "type": "technology"
+              },
+              {
+                "name": "REST",
+                "type": "technology"
+              },
+              {
+                "name": "SQLServer",
+                "type": "technology"
+              },
+              {
+                "name": "Serverless",
+                "type": "technology"
+              },
+              {
+                "name": "jQuery",
+                "type": "technology"
+              }
             ]
           }
         ]
       },
       {
         "organization": {
-          "name": "ValidiFI",
+          "name": "ValidiFi / Ribbit",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/56889b9d-f0e9-4d7e-be7b-c9db68df07de_linkedin-photo-8648.linkedin-photo-8648",
             "alt": "24/06/24/56889b9d-f0e9-4d7e-be7b-c9db68df07de_linkedin-photo-8648.linkedin-photo-8648"
@@ -132,7 +240,7 @@
             "finishDate": "2023-11-01",
             "challenges": [
               {
-                "description": "• new features, integrations, and migrate AWS to Azure\n• upgrade .NET technologies, containerization, WebForm to React\n\nSkills: Full-Stack Development · Computer Science · HTML · Amazon SQS · TypeScript · JavaScript · Back-End Web Development · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Amazon S3 · Object-Relational Mapping (ORM) · Problem Solving · Web Technologies · Amazon Web Services (AWS) · Node.js · Git · Web Applications"
+                "description": "Participating of the cloud migration strategy from AWS to Azure, optimizing infrastructure costs\nRefactored legacy WebForms interfaces into a modern React/Redux SPA, improving user retention and page load/interaction speed\nUpdating technologies for running on linux and containers, performance monitoring of AWS infrastructure\nTechnologies: react, redux, node.js, javascript, typescript, next.js, socket.io, aws, azure devops, microservices, Heroku, docker, c#, .net, asp.net core, entity framework, sql server, postgres, mongodb"
               }
             ]
           }
@@ -140,7 +248,7 @@
       },
       {
         "organization": {
-          "name": "PRESTTI",
+          "name": "PRESTTI / Acelera",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/39e7fd80-215b-4b51-81d7-e487050c846b_linkedin-photo-8648.linkedin-photo-8648",
             "alt": "24/06/24/39e7fd80-215b-4b51-81d7-e487050c846b_linkedin-photo-8648.linkedin-photo-8648"
@@ -153,7 +261,7 @@
             "finishDate": "2022-08-01",
             "challenges": [
               {
-                "description": "• building new features, integrations, and improvements\n• Implementation of programming best practices, unit testing, CI/DI\n• Updating technologies for running on linux and containers, performance monitoring of AWS infrastructure\n\nSkills: Relational Databases · Computer Science · English · PostgreSQL · Front-End Development · .NET Framework · HTML · Amazon SQS · SQL · Sequelize.js · TypeScript · JavaScript · Back-End Web Development · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Amazon S3 · Object-Relational Mapping (ORM) · Problem Solving · Amazon Web Services (AWS) · .NET Core · Git · Web Applications · Scrum · React.js"
+                "description": "Participated as senior developer building new features, integrations and improvements\nImplementation of programming best practices, unit testing, continuous integration\nUpdating technologies for running on linux and containers, performance monitoring of AWS infrastructure\nTechnologies: react, redux, node.js, javascript, typescript, next.js, socket.io, aws, azure devops, heroku, c#, .net, asp.net core, entity framework, sql server, postgres, mongodb"
               }
             ]
           }
@@ -245,7 +353,7 @@
       },
       {
         "organization": {
-          "name": "GRUPO EN LÍNEA SOFTWARE S.A.S.",
+          "name": "Grupo en Línea Software S.A.S.",
           "image": {
             "link": "https://media-asgard.s3.eu-west-1.amazonaws.com/24/06/24/5ac44d3d-ee5e-4dd8-a03b-31f1817edeac_linkedin-photo-8648.linkedin-photo-8648",
             "alt": "24/06/24/5ac44d3d-ee5e-4dd8-a03b-31f1817edeac_linkedin-photo-8648.linkedin-photo-8648"
@@ -258,7 +366,7 @@
             "finishDate": "2013-07-31",
             "challenges": [
               {
-                "description": "Skills: Relational Databases · Computer Science · PostgreSQL · Front-End Development · .NET Framework · HTML · SQL · Java · JavaScript · Back-End Web Development · Mobile Applications · Cascading Style Sheets (CSS) · Entity Framework (EF) Core · Object-Relational Mapping (ORM) · Problem Solving · Git · Web Applications · Scrum"
+                "description": "Participated building android app for logistics proccess\nDeveloped ASP.NET web applications for administrators and remote clients\nTechnologies: "
               }
             ]
           }
@@ -301,25 +409,120 @@
       }
     ],
     "hardSkills": [
-      { "skill": { "name": ".NET", "type": "technology" } },
-      { "skill": { "name": ".Net Core", "type": "technology" } },
-      { "skill": { "name": "AWS", "type": "technology" } },
-      { "skill": { "name": "Amazon SQS", "type": "technology" } },
-      { "skill": { "name": "AngularJS", "type": "technology" } },
-      { "skill": { "name": "CSS", "type": "technology" } },
-      { "skill": { "name": "Git", "type": "technology" } },
-      { "skill": { "name": "HTML", "type": "technology" } },
-      { "skill": { "name": "Java", "type": "technology" } },
-      { "skill": { "name": "JavaScript", "type": "technology" } },
-      { "skill": { "name": "Microsoft Excel", "type": "technology" } },
-      { "skill": { "name": "PHP", "type": "technology" } },
-      { "skill": { "name": "PostgreSQL", "type": "technology" } },
-      { "skill": { "name": "Python", "type": "technology" } },
-      { "skill": { "name": "React", "type": "technology" } },
-      { "skill": { "name": "S3", "type": "technology" } },
-      { "skill": { "name": "SQL", "type": "technology" } },
-      { "skill": { "name": "Sequelize", "type": "technology" } },
-      { "skill": { "name": "TypeScript", "type": "technology" } }
+      {
+        "skill": {
+          "name": ".NET",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": ".Net Core",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AWS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Amazon SQS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "AngularJS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "CSS",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Git",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "HTML",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Java",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "JavaScript",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Microsoft Excel",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PHP",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "PostgreSQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Python",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "React",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "S3",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "SQL",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "Sequelize",
+          "type": "technology"
+        }
+      },
+      {
+        "skill": {
+          "name": "TypeScript",
+          "type": "technology"
+        }
+      }
     ],
     "studies": [
       {
@@ -337,15 +540,42 @@
         },
         "finishDate": "2013-12-01",
         "linkedCompetences": [
-          { "name": ".NET", "type": "technology" },
-          { "name": "ASP.net", "type": "technology" },
-          { "name": "C#", "type": "technology" },
-          { "name": "CSS", "type": "technology" },
-          { "name": "JavaScript", "type": "technology" },
-          { "name": "MySQL", "type": "technology" },
-          { "name": "PHP", "type": "technology" },
-          { "name": "PostgreSQL", "type": "technology" },
-          { "name": "SQLServer", "type": "technology" }
+          {
+            "name": ".NET",
+            "type": "technology"
+          },
+          {
+            "name": "ASP.net",
+            "type": "technology"
+          },
+          {
+            "name": "C#",
+            "type": "technology"
+          },
+          {
+            "name": "CSS",
+            "type": "technology"
+          },
+          {
+            "name": "JavaScript",
+            "type": "technology"
+          },
+          {
+            "name": "MySQL",
+            "type": "technology"
+          },
+          {
+            "name": "PHP",
+            "type": "technology"
+          },
+          {
+            "name": "PostgreSQL",
+            "type": "technology"
+          },
+          {
+            "name": "SQLServer",
+            "type": "technology"
+          }
         ]
       }
     ]
@@ -353,22 +583,52 @@
   "careerPreferences": {
     "contact": {
       "publicProfiles": [
-        { "URL": "https://linkedin.com/in/clystian", "type": "linkedin" },
-        { "URL": "https://stackoverflow.com/users/1669574/clystian", "type": "stackoverflow" },
-        { "URL": "https://www.github.com/clystian", "type": "github" },
-        { "URL": "https://www.twitter.com/clystian_", "type": "twitter" }
+        {
+          "URL": "https://linkedin.com/in/clystian",
+          "type": "linkedin"
+        },
+        {
+          "URL": "https://stackoverflow.com/users/1669574/clystian",
+          "type": "stackoverflow"
+        },
+        {
+          "URL": "https://www.github.com/clystian",
+          "type": "github"
+        },
+        {
+          "URL": "https://www.twitter.com/clystian_",
+          "type": "twitter"
+        }
       ]
     },
     "preferences": {
       "preferredCompetences": [
-        { "name": ".NET", "type": "technology" },
-        { "name": "Angular2+", "type": "technology" },
-        { "name": "NodeJS", "type": "technology" },
-        { "name": "React", "type": "technology" }
+        {
+          "name": ".NET",
+          "type": "technology"
+        },
+        {
+          "name": "Angular2+",
+          "type": "technology"
+        },
+        {
+          "name": "NodeJS",
+          "type": "technology"
+        },
+        {
+          "name": "React",
+          "type": "technology"
+        }
       ],
       "discardedCompetences": [
-        { "name": "Java", "type": "technology" },
-        { "name": "PHP", "type": "technology" }
+        {
+          "name": "Java",
+          "type": "technology"
+        },
+        {
+          "name": "PHP",
+          "type": "technology"
+        }
       ],
       "preferredRoles": [
         "Full-stack Developer",
@@ -385,9 +645,18 @@
   },
   "manfredSpecificData": {
     "mainStackTechs": [
-      { "name": ".NET", "type": "technology" },
-      { "name": "JavaScript", "type": "technology" },
-      { "name": "TypeScript", "type": "technology" }
+      {
+        "name": ".NET",
+        "type": "technology"
+      },
+      {
+        "name": "JavaScript",
+        "type": "technology"
+      },
+      {
+        "name": "TypeScript",
+        "type": "technology"
+      }
     ],
     "desiredJobDescription": "I would like a job with big technological challenges. I also think it's important for personal growth to work with people who are benchmarks in their field and to have good mentoring"
   }
