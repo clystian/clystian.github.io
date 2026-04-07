@@ -26,9 +26,14 @@ jobs:
         uses: pnpm/action-setup@v4
         with:
           run_install: false
-      - name: Install, build, and upload your site
-        uses: withastro/action@v3
-        # No 'path' input needed if your Astro project is in the repo root
+      - name: Install dependencies
+        run: pnpm install
+      - name: Build site
+        run: pnpm build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./dist
 
   deploy:
     needs: build
