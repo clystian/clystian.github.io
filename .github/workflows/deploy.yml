@@ -10,26 +10,34 @@ permissions:
   pages: write
   id-token: write
 
+# 1. Set global env to opt-in to Node 24 runtime for all jobs
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10 # Explicit version prevents unexpected breaks
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 24
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          run_install: false
+          cache: 'pnpm' # Built-in caching for faster builds
+
       - name: Install dependencies
         run: pnpm install
+
       - name: Build site
         run: pnpm build
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
