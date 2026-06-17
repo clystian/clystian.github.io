@@ -1,8 +1,8 @@
-import { beforeAll, afterAll, test, expect } from 'vitest';
 import { execSync, spawn } from 'node:child_process';
 import { setTimeout as delay } from 'node:timers/promises';
+import { afterAll, beforeAll, expect, test } from 'vitest';
 
-let server;
+let server: ReturnType<typeof spawn>;
 
 beforeAll(async () => {
   execSync('npm run build', { stdio: 'inherit' });

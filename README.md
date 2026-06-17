@@ -12,10 +12,11 @@ A high-performance, schema-driven portfolio generated from a single JSON source.
 
 ## 🏗 Architecture & Tech Stack
 
-- **Framework:** [Astro 4.x](https://astro.build/) (SSG)
+- **Framework:** [Astro 6.4.8](https://astro.build/) (SSG)
 - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
 - **Package Manager:** [pnpm](https://pnpm.io/)
-- **Data Schema:** [Manfred MAC](https://github.com/getmanfred/mac) (`src/data/manfred.json`)
+- **Code Quality:** [Biome 2.5.0](https://biomejs.dev/) (linting & formatting)
+- **Data Schema:** [Manfred MAC](https://github.com/getmanfred/mac) (`manfred.json`)
 
 ### Why Manfred?
 The site implements a **Data-First** approach. By using the Manfred MAC schema, the resume data is decoupled from the UI logic, allowing for easy updates and interoperability with other HR tools.
@@ -39,6 +40,21 @@ pnpm install
 pnpm dev
 ```
 
+### Code Quality & Linting
+
+This project uses **Biome** — a fast, unified linter and formatter (Rust-based).
+
+```bash
+# Check formatting & linting
+pnpm check
+
+# Auto-fix formatting issues
+pnpm format
+
+# Run lint checks only
+pnpm lint
+```
+
 ### Build & Validation
 
 ```bash
@@ -47,6 +63,9 @@ pnpm run build
 
 # Execute Playwright/Vitest suite
 pnpm test
+
+# Or run both:
+pnpm test && pnpm build
 ```
 
 ---
@@ -73,7 +92,34 @@ This repository uses **GitHub Actions** for automated deployment.
 - **Environment:** GitHub Pages.
     
 - **Custom Domain:** Configured via `CNAME` in the `public/` directory.
-    
+
+### Deployment Security
+
+The deploy workflow implements security best practices:
+- **Least privilege permissions** — Job-level permission scoping
+- **Concurrency control** — Only latest commit deploys; older runs cancelled
+- **Artifact validation** — Ensures build dist directory exists before upload
+
+See `.github/workflows/deploy.yml` for full CI/CD configuration.
+
+---
+
+## 🔒 Security
+
+### Recent Updates (June 2026)
+- ✅ Upgraded `astro` to 6.4.8 (fixes XSS, SSRF, path traversal advisories)
+- ✅ Upgraded `vitest` to 4.1.9
+- ✅ Pinned `esbuild` to ^0.28.1 via `pnpm.overrides`
+- ✅ Zero known vulnerabilities (as of 2026-06-17)
+
+Run `pnpm audit` to verify security status.
+
+### Code Quality
+- All source code checked by **Biome** linter (run `pnpm check`)
+- Automatic formatting on save (enable [Biome VS Code extension](https://marketplace.visualstudio.com/items?itemName=biomejs.biome))
+- Type-safe TypeScript with strict mode enabled
+
+---
 
 ## 📄 License
 

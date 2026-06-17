@@ -1,9 +1,12 @@
 ---
 import data from '../../manfred.json';
+
 const jobs = data.experience.jobs;
 const formatRange = (start, end) => {
   const startStr = new Date(start).toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
-  const endStr = end ? new Date(end).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }) : 'Present';
+  const endStr = end
+    ? new Date(end).toLocaleDateString('en-US', { month: 'long', year: 'numeric' })
+    : 'Present';
   return `${startStr} – ${endStr}`;
 };
 ---
