@@ -1,9 +1,12 @@
 ---
 import data from '../../manfred.json';
+
 const studies = data.knowledge.studies;
 const formatRange = (start, end) => {
   const startStr = new Date(start).toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
-  const endStr = end ? new Date(end).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : 'Present';
+  const endStr = end
+    ? new Date(end).toLocaleDateString('en-US', { month: 'short', year: 'numeric' })
+    : 'Present';
   return `${startStr} - ${endStr}`;
 };
 ---

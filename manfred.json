@@ -630,17 +630,11 @@
           "type": "technology"
         }
       ],
-      "preferredRoles": [
-        "Full-stack Developer",
-        "Tech Lead"
-      ]
+      "preferredRoles": ["Full-stack Developer", "Tech Lead"]
     },
     "status": "searchingActively",
     "requirements": {
-      "contractTypes": [
-        "permanent",
-        "freelance"
-      ]
+      "contractTypes": ["permanent", "freelance"]
     }
   },
   "manfredSpecificData": {
