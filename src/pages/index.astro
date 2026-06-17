@@ -18,7 +18,8 @@ import Skills from '../components/Skills.astro';
     <meta name="description" content="Cristian Hernandez - Senior Fullstack Developer with over 10 years of experience in .NET, Node.js, React, Angular, and SQL. Based in Medellín, Colombia." />
     <meta name="author" content="Cristian Hernandez" />
     <meta name="keywords" content="fullstack developer, .NET, Node.js, React, Angular, SQL, Medellín" />
-    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://clystian.github.io/" />
     <!-- OpenGraph / Social Media -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://clystian.github.io" />
@@ -70,13 +71,15 @@ import Skills from '../components/Skills.astro';
   </head>
   <body class="bg-gray-50 text-gray-900 font-sans">
     <Header />
-    <Hero />
-    <About />
-    <Experience />
-    <Education />
-    <Projects />
-    <Skills />
-    <Contact />
+    <main id="main-content" role="main">
+      <Hero />
+      <About />
+      <Experience />
+      <Education />
+      <Projects />
+      <Skills />
+      <Contact />
+    </main>
     <Footer />
   </body>
 </html>
