@@ -6,24 +6,36 @@ on:
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
+
+concurrency:
+  group: deploy-pages-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
     steps:
-      - uses: actions/checkout@v6 # Native Node 24
+      - uses: actions/checkout@v4 # Native Node 24
 
       - uses: pnpm/action-setup@v5 # Support for pnpm v10+ and Node 24
 
-      - uses: actions/setup-node@v6 # Native Node 24 + Improved Auto-caching
+      - uses: actions/setup-node@v4 # Native Node 24 + Improved Auto-caching
         with:
           node-version: 24
           cache: 'pnpm'
 
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
+
+      - name: Verify build artifact
+        run: |
+          if [ ! -d dist ] || [ -z "$(find dist -type f)" ]; then
+            echo "ERROR: Build artifact directory is empty or missing"
+            exit 1
+          fi
+          echo "Build artifact verified: $(find dist -type f | wc -l) files"
 
       - uses: actions/upload-pages-artifact@v3
         with:
@@ -32,6 +44,9 @@ jobs:
   deploy:
     needs: build
     runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
