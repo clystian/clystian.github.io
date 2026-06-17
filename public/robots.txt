@@ -1,0 +1,11 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+Disallow: /.astro
+Disallow: /admin
+
+# Crawl delay for respectful indexing
+Crawl-delay: 1
+
+# Sitemaps
+Sitemap: https://clystian.github.io/sitemap-index.xml
