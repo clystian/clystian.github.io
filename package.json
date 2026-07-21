@@ -15,7 +15,7 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.3",
     "@tailwindcss/vite": "^4.2.2",
-    "astro": "^6.4.8"
+    "astro": "^7.1.0"
   },
   "devDependencies": {
     "@biomejs/biome": "^2.5.0",
