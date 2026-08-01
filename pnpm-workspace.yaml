@@ -1,0 +1,5 @@
+allowBuilds:
+  esbuild: true
+overrides:
+  astro@<6.1.6: '>=6.1.6'
+  postcss@<8.5.10: '>=8.5.10'
