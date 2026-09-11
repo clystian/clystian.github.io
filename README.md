@@ -12,10 +12,10 @@ A high-performance, schema-driven portfolio generated from a single JSON source.
 
 ## 🏗 Architecture & Tech Stack
 
-- **Framework:** [Astro 6.4.8](https://astro.build/) (SSG)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Framework:** [Astro 7.3.2](https://astro.build/) (SSG)
+- **Styling:** [Tailwind CSS 4](https://tailwindcss.com/) via the Vite plugin
 - **Package Manager:** [pnpm](https://pnpm.io/)
-- **Code Quality:** [Biome 2.5.0](https://biomejs.dev/) (linting & formatting)
+- **Code Quality:** [Biome 2.5.13](https://biomejs.dev/) (linting & formatting)
 - **Data Schema:** [Manfred MAC](https://github.com/getmanfred/mac) (`manfred.json`)
 
 ### Why Manfred?
@@ -26,8 +26,8 @@ The site implements a **Data-First** approach. By using the Manfred MAC schema, 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (Latest LTS)
-- pnpm `corepack enable pnpm`
+- Node.js 24 or a current LTS release
+- pnpm 12 (`corepack enable pnpm`)
 
 ### Installation
 ```bash
@@ -58,10 +58,10 @@ pnpm lint
 ### Build & Validation
 
 ```bash
-# Validates types and builds the static site to /dist
-pnpm run build
+# Builds the static site to /dist
+pnpm build
 
-# Execute Playwright/Vitest suite
+# Run the Vitest smoke test
 pnpm test
 
 # Or run both:
@@ -74,7 +74,7 @@ pnpm test && pnpm build
 
 To update the portfolio content, modify the source of truth:
 
-1. Edit `public/manfred.json` (or `src/data/manfred.json` depending on your setup).
+1. Edit the root-level `manfred.json` source file.
     
 2. The UI components reactively map the JSON nodes to Tailwind-styled components.
     
@@ -91,7 +91,7 @@ This repository uses **GitHub Actions** for automated deployment.
     
 - **Environment:** GitHub Pages.
     
-- **Custom Domain:** Configured via `CNAME` in the `public/` directory.
+- **Custom Domain:** Optional. Add a `public/CNAME` file containing the domain name when configuring a custom GitHub Pages domain.
 
 ### Deployment Security
 
@@ -106,11 +106,10 @@ See `.github/workflows/deploy.yml` for full CI/CD configuration.
 
 ## 🔒 Security
 
-### Recent Updates (June 2026)
-- ✅ Upgraded `astro` to 6.4.8 (fixes XSS, SSRF, path traversal advisories)
-- ✅ Upgraded `vitest` to 4.1.9
-- ✅ Pinned `esbuild` to ^0.28.1 via `pnpm.overrides`
-- ✅ Zero known vulnerabilities (as of 2026-06-17)
+### Current Status
+- ✅ `astro` is on 7.3.2.
+- ✅ `js-yaml` is forced to patched version 4.3.2 through the pnpm workspace override.
+- ✅ `pnpm audit` reports zero known vulnerabilities in the current dependency tree.
 
 Run `pnpm audit` to verify security status.
 
