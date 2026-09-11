@@ -12,7 +12,8 @@ This document summarizes the structure and key points of the repository for newc
 
 ```
 .
-├── public/          # static assets (favicon and images)
+├── public/          # static assets, favicon, robots.txt, and optional CNAME
+├── manfred.json     # portfolio content source in Manfred MAC format
 ├── src/
 │   ├── components/  # Astro components for page sections
 │   ├── pages/       # Site pages (index.astro)
@@ -28,12 +29,12 @@ Configuration files:
 
 ## Development Workflow
 
-1. Install dependencies: `npm install`
-2. Start a development server: `npm run dev`
-3. Run tests to ensure the site builds: `npm test`
-4. Build for production: `npm run build`
+1. Install dependencies: `pnpm install`
+2. Start a development server: `pnpm dev`
+3. Run the Vitest smoke test: `pnpm test`
+4. Build for production: `pnpm build`
 
-Pushing changes to `main` or `master` runs the deployment workflow and publishes the `dist/` directory to GitHub Pages.
+Pushing changes to `main` runs the deployment workflow and publishes the `dist/` directory to GitHub Pages. The workflow can also be started manually.
 
 ## Component Structure
 
@@ -52,14 +53,15 @@ import Contact from "../components/Contact.astro";
 import Footer from "../components/Footer.astro";
 ```
 
-Each component primarily contains HTML with Tailwind classes, reading data from `manfred.json` where appropriate.
+Each component primarily contains HTML with Tailwind classes and reads the root-level `manfred.json` data where appropriate.
 
 ## Key Points
 
-- **Data** – `manfred.json` stores the content for each page section.
-- **Tailwind** – No custom `tailwind.config.js` is provided, so the default setup is used via `@tailwindcss/vite`.
+- **Data** – The root-level `manfred.json` stores the content for each page section.
+- **Tailwind** – No custom `tailwind.config.js` is provided; Tailwind CSS 4 is integrated through `@tailwindcss/vite`.
 - **Static Assets** – Images in `public/` are copied directly to the final build.
-- **TypeScript** – Strict settings are enforced, but components are mostly markup.
+- **Testing** – `tests/site.test.ts` builds the site, starts the Astro preview server, and checks that the home page responds successfully.
+- **TypeScript** – Strict settings are enforced through Astro's strict tsconfig.
 
 ## Suggestions for Further Exploration
 
